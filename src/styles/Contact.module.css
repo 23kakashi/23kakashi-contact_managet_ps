@@ -1,0 +1,47 @@
+.contactContainer {
+    /* height: 50px; */
+    margin-top: 20px;
+    padding: 20px 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contactDetail {
+    margin: 5px;
+}
+
+.avatar img {
+    border-radius: 50%;
+}
+
+.iconEdit {
+    color: blue;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 10px;
+}
+.iconDelete {
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+.form {
+    display: grid;
+}
+
+.form button {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.form button:last-child {
+     background-color: red;   
+}
